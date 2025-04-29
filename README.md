@@ -1,4 +1,4 @@
-# jdbc-mcp-server (read-only)
+# cdata-jdbc-mcp-server (read-only)
 Our generic Model Context Protocol (MCP) Server for CData JDBC Drivers (read-only)
 ## Purpose
 We created this read-only MCP Server to allow LLMs (like Claude Desktop) to query live data from any of over 300+ sources supported by [CData JDBC Drivers](https://www.cdata.com/jdbc).
@@ -30,7 +30,7 @@ In the guide below, `{data source}` refers to the back-end data source (e.g. Sal
     * Enter your name, email, and "TRIAL" (or your license key).
 4. Configure your connection to the data source (Salesforce as an example):
     * Run the command `java -jar cdata.jdbc.salesforce.jar` to open the Connection String utility.
-      <img src="https://github.com/user-attachments/assets/a5b5237b-79c1-472c-8c2f-3f9eb1ac9627" title="CData JDBC Driver Connectiong String utility" width=384px />
+      <img src="https://github.com/user-attachments/assets/a5b5237b-79c1-472c-8c2f-3f9eb1ac9627" title="CData JDBC Driver Connectiong String utility (Salesforce is shown)." width=384px />
     * Configure the connection string and click "Test Connection"
       > **Note:** If the data sources uses OAuth, you will need to authenticate in your browser.
     * Once successful, copy the connection string for use later.
