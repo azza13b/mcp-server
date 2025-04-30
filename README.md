@@ -13,8 +13,8 @@ This server wraps those drivers and makes their data available through a simple 
 In the guide below, `{data source}` refers to the back-end data source (e.g. Salesforce). For code snippets and commands, Salesforce is used as an example, but the patterns apply to any of our JDBC Drivers.
 1. Clone the repository:
       ```bash
-      git clone https://github.com/cdatasoftware/jdbc-mcp-server.git
-      cd jdbc-mcp-server
+      git clone https://github.com/cdatasoftware/cdata-jdbc-mcp-server.git
+      cd cdata-jdbc-mcp-server
       ```
 2. Build the server:
       ```bash
