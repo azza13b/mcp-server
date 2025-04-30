@@ -1,7 +1,7 @@
 # cdata-jdbc-mcp-server (read-only)
 Our generic Model Context Protocol (MCP) Server for CData JDBC Drivers (read-only)
 ## Purpose
-We created this read-only MCP Server to allow LLMs (like Claude Desktop) to query live data from any of over 300+ sources supported by [CData JDBC Drivers](https://www.cdata.com/jdbc).
+We created this read-only MCP Server to allow LLMs (like Claude Desktop) to query live data from any of over 300+ sources ([listed below](#supported-sources)) supported by [CData JDBC Drivers](https://www.cdata.com/jdbc).
 
 CData JDBC Drivers connect to SaaS apps, NoSQL stores, and APIs by exposing them as relational SQL models.
 
@@ -128,3 +128,68 @@ In the definitions below, `{servername}` refers to the name of the MCP Server in
 
 ## License
 This MCP server is licensed under the MIT License. This means you are free to use, modify, and distribute the software, subject to the terms and conditions of the MIT License. For more details, please see the [LICENSE](./LICENSE) file in the project repository.
+
+## Supported Sources
+<table>
+<tr><td>Access</td><td>Act CRM</td><td>Act-On</td><td>Active Directory</td></tr>
+<tr><td>ActiveCampaign</td><td>Acumatica</td><td>Adobe Analytics</td><td>Adobe Commerce</td></tr>
+<tr><td>ADP</td><td>Airtable</td><td>AlloyDB</td><td>Amazon Athena</td></tr>
+<tr><td>Amazon DynamoDB</td><td>Amazon Marketplace</td><td>Amazon S3</td><td>Asana</td></tr>
+<tr><td>Authorize.Net</td><td>Avalara AvaTax</td><td>Avro</td><td>Azure Active Directory</td></tr>
+<tr><td>Azure Analysis Services</td><td>Azure Data Catalog</td><td>Azure Data Lake Storage</td><td>Azure DevOps</td></tr>
+<tr><td>Azure Synapse</td><td>Azure Table</td><td>Basecamp</td><td>BigCommerce</td></tr>
+<tr><td>BigQuery</td><td>Bing Ads</td><td>Bing Search</td><td>Bitbucket</td></tr>
+<tr><td>Blackbaud FE NXT</td><td>Box</td><td>Bullhorn CRM</td><td>Cassandra</td></tr>
+<tr><td>Certinia</td><td>Cloudant</td><td>CockroachDB</td><td>Confluence</td></tr>
+<tr><td>Cosmos DB</td><td>Couchbase</td><td>CouchDB</td><td>CSV</td></tr>
+<tr><td>Cvent</td><td>Databricks</td><td>DB2</td><td>DocuSign</td></tr>
+<tr><td>Dropbox</td><td>Dynamics 365</td><td>Dynamics 365 Business Central</td><td>Dynamics CRM</td></tr>
+<tr><td>Dynamics GP</td><td>Dynamics NAV</td><td>eBay</td><td>eBay Analytics</td></tr>
+<tr><td>Elasticsearch</td><td>Email</td><td>EnterpriseDB</td><td>Epicor Kinetic</td></tr>
+<tr><td>Exact Online</td><td>Excel</td><td>Excel Online</td><td>Facebook</td></tr>
+<tr><td>Facebook Ads</td><td>FHIR</td><td>Freshdesk</td><td>FTP</td></tr>
+<tr><td>GitHub</td><td>Gmail</td><td>Google Ad Manager</td><td>Google Ads</td></tr>
+<tr><td>Google Analytics</td><td>Google Calendar</td><td>Google Campaign Manager 360</td><td>Google Cloud Storage</td></tr>
+<tr><td>Google Contacts</td><td>Google Data Catalog</td><td>Google Directory</td><td>Google Drive</td></tr>
+<tr><td>Google Search</td><td>Google Sheets</td><td>Google Spanner</td><td>GraphQL</td></tr>
+<tr><td>Greenhouse</td><td>Greenplum</td><td>HarperDB</td><td>HBase</td></tr>
+<tr><td>HCL Domino</td><td>HDFS</td><td>Highrise</td><td>Hive</td></tr>
+<tr><td>HubDB</td><td>HubSpot</td><td>IBM Cloud Data Engine</td><td>IBM Cloud Object Storage</td></tr>
+<tr><td>IBM Informix</td><td>Impala</td><td>Instagram</td><td>JDBC-ODBC Bridge</td></tr>
+<tr><td>Jira</td><td>Jira Assets</td><td>Jira Service Management</td><td>JSON</td></tr>
+<tr><td>Kafka</td><td>Kintone</td><td>LDAP</td><td>LinkedIn</td></tr>
+<tr><td>LinkedIn Ads</td><td>MailChimp</td><td>MariaDB</td><td>Marketo</td></tr>
+<tr><td>MarkLogic</td><td>Microsoft Dataverse</td><td>Microsoft Entra ID</td><td>Microsoft Exchange</td></tr>
+<tr><td>Microsoft OneDrive</td><td>Microsoft Planner</td><td>Microsoft Project</td><td>Microsoft Teams</td></tr>
+<tr><td>Monday.com</td><td>MongoDB</td><td>MYOB AccountRight</td><td>MySQL</td></tr>
+<tr><td>nCino</td><td>Neo4J</td><td>NetSuite</td><td>OData</td></tr>
+<tr><td>Odoo</td><td>Office 365</td><td>Okta</td><td>OneNote</td></tr>
+<tr><td>Oracle</td><td>Oracle Eloqua</td><td>Oracle Financials Cloud</td><td>Oracle HCM Cloud</td></tr>
+<tr><td>Oracle Sales</td><td>Oracle SCM</td><td>Oracle Service Cloud</td><td>Outreach.io</td></tr>
+<tr><td>Parquet</td><td>Paylocity</td><td>PayPal</td><td>Phoenix</td></tr>
+<tr><td>PingOne</td><td>Pinterest</td><td>Pipedrive</td><td>PostgreSQL</td></tr>
+<tr><td>Power BI XMLA</td><td>Presto</td><td>Quickbase</td><td>QuickBooks</td></tr>
+<tr><td>QuickBooks Online</td><td>QuickBooks Time</td><td>Raisers Edge NXT</td><td>Reckon</td></tr>
+<tr><td>Reckon Accounts Hosted</td><td>Redis</td><td>Redshift</td><td>REST</td></tr>
+<tr><td>RSS</td><td>Sage 200</td><td>Sage 300</td><td>Sage 50 UK</td></tr>
+<tr><td>Sage Cloud Accounting</td><td>Sage Intacct</td><td>Salesforce</td><td>Salesforce Data Cloud</td></tr>
+<tr><td>Salesforce Financial Service Cloud</td><td>Salesforce Marketing</td><td>Salesforce Marketing Cloud Account Engagement</td><td>Salesforce Pardot</td></tr>
+<tr><td>Salesloft</td><td>SAP</td><td>SAP Ariba Procurement</td><td>SAP Ariba Source</td></tr>
+<tr><td>SAP Business One</td><td>SAP BusinessObjects BI</td><td>SAP ByDesign</td><td>SAP Concur</td></tr>
+<tr><td>SAP Fieldglass</td><td>SAP HANA</td><td>SAP HANA XS Advanced</td><td>SAP Hybris C4C</td></tr>
+<tr><td>SAP Netweaver Gateway</td><td>SAP SuccessFactors</td><td>SAS Data Sets</td><td>SAS xpt</td></tr>
+<tr><td>SendGrid</td><td>ServiceNow</td><td>SFTP</td><td>SharePoint</td></tr>
+<tr><td>SharePoint Excel Services</td><td>ShipStation</td><td>Shopify</td><td>SingleStore</td></tr>
+<tr><td>Slack</td><td>Smartsheet</td><td>Snapchat Ads</td><td>Snowflake</td></tr>
+<tr><td>Spark</td><td>Splunk</td><td>SQL Analysis Services</td><td>SQL Server</td></tr>
+<tr><td>Square</td><td>Stripe</td><td>Sugar CRM</td><td>SuiteCRM</td></tr>
+<tr><td>SurveyMonkey</td><td>Sybase</td><td>Sybase IQ</td><td>Tableau CRM Analytics</td></tr>
+<tr><td>Tally</td><td>TaxJar</td><td>Teradata</td><td>Tier1</td></tr>
+<tr><td>TigerGraph</td><td>Trello</td><td>Trino</td><td>Twilio</td></tr>
+<tr><td>Twitter</td><td>Twitter Ads</td><td>Veeva CRM</td><td>Veeva Vault</td></tr>
+<tr><td>Wave Financial</td><td>WooCommerce</td><td>WordPress</td><td>Workday</td></tr>
+<tr><td>xBase</td><td>Xero</td><td>XML</td><td>YouTube Analytics</td></tr>
+<tr><td>Zendesk</td><td>Zoho Books</td><td>Zoho Creator</td><td>Zoho CRM</td></tr>
+<tr><td>Zoho Inventory</td><td>Zoho Projects</td><td>Zuora</td><td>... Dozens More</td></tr>
+</table>
+
