@@ -1,13 +1,12 @@
 # cdata-jdbc-mcp-server (read-only)
 Our generic Model Context Protocol (MCP) Server for CData JDBC Drivers (read-only)
+> **Note:** This project builds a read-only MCP server. For full read, write, update, delete, and action capabilities and a simplified setup, check out our free [CData MCP Servers (beta)](https://www.cdata.com/solutions/mcp).
 ## Purpose
 We created this read-only MCP Server to allow LLMs (like Claude Desktop) to query live data from any of over 300+ sources ([listed below](#supported-sources)) supported by [CData JDBC Drivers](https://www.cdata.com/jdbc).
 
 CData JDBC Drivers connect to SaaS apps, NoSQL stores, and APIs by exposing them as relational SQL models.
 
 This server wraps those drivers and makes their data available through a simple MCP interface, so LLMs can retrieve live information by asking natural language questions — no SQL required.
-
-> **Note:** This project builds a read-only MCP server. For full read, write, update, delete, and action capabilities and a simplified setup, check out our free [CData MCP Servers](https://www.cdata.com/solutions/mcp).
 
 ## Setup Guide
 In the guide below, `{data source}` refers to the back-end data source (e.g. Salesforce). For code snippets and commands, Salesforce is used as an example, but the patterns apply to any of our JDBC Drivers.
